@@ -4,6 +4,11 @@ body {
 
 h1 {
     text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+p {
+    text-align: center;
 }
 
 section {
@@ -14,24 +19,41 @@ section {
 
 .line {
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
 .letter {
     width: 50px;
     height: 50px;
-    border: 1px solid #aaa;
+    border: 1px solid #787c7f;
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;    
 }
 
 .letter.correct-spot {
-    background-color: #5f7;
+    background-color: #6ca965;
+    border-color: #6ca965;
+    color: white;
 }
 
 .letter.correct-letter {
-    background-color: #ff5;
+    background-color: #c8b653;
+    border-color: #c8b653;
+    color: white;
+}
+
+.letter.guessed {
+    background-color: #787c7f;
+    border-color: #787c7f;
+    color: white;
+}
+
+button {
+    padding: 15px;
+    width: 280px;
 }
