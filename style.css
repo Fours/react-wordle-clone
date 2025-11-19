@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background: linear-gradient(45deg, #aaa, #fff)
 }
 
 h1 {
@@ -9,6 +10,7 @@ h1 {
 
 p {
     text-align: center;
+    color: #777;
 }
 
 section {
@@ -26,6 +28,7 @@ section {
 .letter {
     width: 50px;
     height: 50px;
+    background-color: #fff;
     border: 1px solid #787c7f;
     display: flex;
     align-items: center;
@@ -38,19 +41,19 @@ section {
 .letter.correct-spot {
     background-color: #6ca965;
     border-color: #6ca965;
-    color: white;
+    color: #fff;
 }
 
 .letter.correct-letter {
     background-color: #c8b653;
     border-color: #c8b653;
-    color: white;
+    color: #fff;
 }
 
 .letter.guessed {
     background-color: #787c7f;
     border-color: #787c7f;
-    color: white;
+    color: #fff;
 }
 
 button {
