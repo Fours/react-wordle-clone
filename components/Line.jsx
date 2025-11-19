@@ -5,12 +5,13 @@ export default function Line({ word, solution = "", isSubmitted = false }) {
             {word.split("").map((letter, index) => {
                 
                 let extraClass = ""
-                if (isSubmitted) {
-                    extraClass = "guessed"
+                if (isSubmitted) {                    
                     if (solution[index] === letter){
                         extraClass = "correct-spot"
                     } else if (solution.split("").includes(letter)) {
                         extraClass = "correct-letter"
+                    } else {
+                        extraClass = "incorrect"
                     }
                 }
                 

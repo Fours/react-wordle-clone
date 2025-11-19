@@ -50,7 +50,7 @@ section {
     color: #fff;
 }
 
-.letter.guessed {
+.letter.incorrect {
     background-color: #787c7f;
     border-color: #787c7f;
     color: #fff;
