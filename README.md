@@ -6,5 +6,5 @@ npm start
 ```
 
 ## About
-This is a Wordle clone to practice and demonstrate the fundamentals of javascript, React, and CSS.
+This is a Wordle clone built with javascript, React, and HTML/CSS.
 
